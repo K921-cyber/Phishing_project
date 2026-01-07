@@ -44,7 +44,9 @@
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/K921-cyber/Phishing_project.git](https://github.com/K921-cyber/Phishing_project.git)
-cd Phishing_project2. Backend Setup
+cd Phishing_project
+```
+2. Backend Setup
 Navigate to the backend directory and install the required dependencies.
 
 Bash
