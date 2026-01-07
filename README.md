@@ -46,31 +46,29 @@
 git clone [https://github.com/K921-cyber/Phishing_project.git](https://github.com/K921-cyber/Phishing_project.git)
 cd Phishing_project
 ```
-2. Backend Setup
+### 2. Backend Setup
 Navigate to the backend directory and install the required dependencies.
-
-Bash
-
+```
 cd backend
 pip install flask flask-cors scikit-learn pandas joblib python-whois dnspython
-3. Train the Model
+```
+### 3. Train the Model
 Before running the server, you must generate the ML model artifacts. The train_model.py utility handles tokenization and serialization.
-
-Bash
+```
 
 python train_model.py
 
 Output: "Success! Model saved as 'phishing_model.pkl'".
-
-4. Start the Analysis Engine
+```
+### 4. Start the Analysis Engine
 Run the Flask application. It provides a live logging console for debugging.
 
-Bash
+```
 
 python app.py
 The server will start on http://127.0.0.1:5000.
-
-5. Frontend Setup (Chrome Extension)
+```
+### 5. Frontend Setup (Chrome Extension)
 Open Chrome and navigate to chrome://extensions/.
 
 Enable Developer Mode (toggle in the top right corner).
@@ -81,7 +79,7 @@ Select the extension folder from this repository.
 
 The PhishTrace icon should appear in your browser toolbar.
 
-📊 Performance Results
+## 📊 Performance Results
 
 Accuracy: The Random Forest model achieved 94% accuracy on the test dataset.
 
@@ -92,7 +90,7 @@ Speed: Domain Age lookups averaged 1.2 seconds, detecting 100% of simulated zero
 Latency: The system is optimized to perform inference in sub-millisecond time by loading models into RAM.
 
 📂 Project Structure
-Plaintext
+```Plaintext
 
 PhishTrace-AI/
 ├── backend/
