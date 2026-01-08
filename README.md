@@ -4,19 +4,19 @@
 ![Python](https://img.shields.io/badge/Backend-Python_Flask-green)
 ![Platform](https://img.shields.io/badge/Platform-Chrome_Extension_V3-yellow)
 
-[cite_start]**PhishTrace AI** is a specialized security framework designed to address the "Human Layer" vulnerability in cybersecurity[cite: 64]. [cite_start]Unlike traditional server-side filters, this project utilizes a hybrid, client-side approach to detect phishing attacks in real-time directly within the browser[cite: 65].
+**PhishTrace AI** is a specialized security framework designed to address the "Human Layer" vulnerability in cybersecurity[cite: 64]. [cite_start]Unlike traditional server-side filters, this project utilizes a hybrid, client-side approach to detect phishing attacks in real-time directly within the browser.
 
-[cite_start]The system combines **Machine Learning (Behavioral Analysis)** and **Digital Forensics (OSINT)** to bridge the "latency gap" inherent in reputation-based blacklists [cite: 73-75].
+The system combines **Machine Learning (Behavioral Analysis)** and **Digital Forensics (OSINT)** to bridge the "latency gap" inherent in reputation-based blacklists.
 
 ---
 
 ## 🚀 Key Features
 
-* [cite_start]**Dual-Engine Detection:** Integrates a Random Forest Classifier for semantic analysis and a Digital Forensic Module for technical verification [cite: 50-52].
-* [cite_start]**Real-Time Zero-Day Defense:** Automatically flags domains registered less than **30 days ago** as high-risk, catching threats before they appear on global blocklists[cite: 53].
-* [cite_start]**Behavioral Analysis:** Detects psychological triggers such as urgency ("Act Now"), coercion, and fear in email text using NLP[cite: 51, 99].
-* [cite_start]**Client-Side Privacy:** Operates via a Chrome Extension and a local Flask server (`127.0.0.1`), ensuring analysis happens locally to prevent sensitive data leakage[cite: 150].
-* [cite_start]**Traffic Light Interface:** Provides immediate, explainable feedback (Red/Yellow/Green) to the user, effectively combating "alert fatigue"[cite: 54, 85].
+* [cite_start]**Dual-Engine Detection:** Integrates a Random Forest Classifier for semantic analysis and a Digital Forensic Module for technical verification.
+* [cite_start]**Real-Time Zero-Day Defense:** Automatically flags domains registered less than **30 days ago** as high-risk, catching threats before they appear on global blocklists.
+* [cite_start]**Behavioral Analysis:** Detects psychological triggers such as urgency ("Act Now"), coercion, and fear in email text using NLP.
+* [cite_start]**Client-Side Privacy:** Operates via a Chrome Extension and a local Flask server (`127.0.0.1`), ensuring analysis happens locally to prevent sensitive data leakage.
+* [cite_start]**Traffic Light Interface:** Provides immediate, explainable feedback (Red/Yellow/Green) to the user, effectively combating "alert fatigue".
 
 ---
 
