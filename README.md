@@ -12,26 +12,26 @@ The system combines **Machine Learning (Behavioral Analysis)** and **Digital For
 
 ## 🚀 Key Features
 
-* [cite_start]**Dual-Engine Detection:** Integrates a Random Forest Classifier for semantic analysis and a Digital Forensic Module for technical verification.
-* [cite_start]**Real-Time Zero-Day Defense:** Automatically flags domains registered less than **30 days ago** as high-risk, catching threats before they appear on global blocklists.
-* [cite_start]**Behavioral Analysis:** Detects psychological triggers such as urgency ("Act Now"), coercion, and fear in email text using NLP.
-* [cite_start]**Client-Side Privacy:** Operates via a Chrome Extension and a local Flask server (`127.0.0.1`), ensuring analysis happens locally to prevent sensitive data leakage.
-* [cite_start]**Traffic Light Interface:** Provides immediate, explainable feedback (Red/Yellow/Green) to the user, effectively combating "alert fatigue".
+* **Dual-Engine Detection:** Integrates a Random Forest Classifier for semantic analysis and a Digital Forensic Module for technical verification.
+* **Real-Time Zero-Day Defense:** Automatically flags domains registered less than **30 days ago** as high-risk, catching threats before they appear on global blocklists.
+* **Behavioral Analysis:** Detects psychological triggers such as urgency ("Act Now"), coercion, and fear in email text using NLP.
+* **Client-Side Privacy:** Operates via a Chrome Extension and a local Flask server (`127.0.0.1`), ensuring analysis happens locally to prevent sensitive data leakage.
+* **Traffic Light Interface:** Provides immediate, explainable feedback (Red/Yellow/Green) to the user, effectively combating "alert fatigue".
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend (Client)
-* [cite_start]**Browser Technology:** Google Chrome Manifest V3 (Secure & Ephemeral Service Workers) [cite: 230-231].
-* [cite_start]**Languages:** HTML5, CSS3, JavaScript (ES6) for DOM manipulation[cite: 221].
-* [cite_start]**Communication:** Asynchronous HTTP `fetch` API[cite: 204].
+* **Browser Technology:** Google Chrome Manifest V3 (Secure & Ephemeral Service Workers) .
+* **Languages:** HTML5, CSS3, JavaScript (ES6) for DOM manipulation.
+* **Communication:** Asynchronous HTTP `fetch` API.
 
 ### Backend (Server)
-* [cite_start]**Language:** Python 3.11+[cite: 220].
-* [cite_start]**Framework:** Flask (REST API Gateway)[cite: 222].
-* [cite_start]**Machine Learning:** Scikit-Learn (Random Forest Classifier), Pandas (Data Processing), Joblib (Model Serialization) [cite: 227-229].
-* [cite_start]**Forensics:** `python-whois` (Domain Age Lookup), `dnspython`[cite: 232].
+* **Language:** Python 3.11+.
+* **Framework:** Flask (REST API Gateway).
+* **Machine Learning:** Scikit-Learn (Random Forest Classifier), Pandas (Data Processing), Joblib (Model Serialization) .
+* **Forensics:** `python-whois` (Domain Age Lookup), `dnspython`.
 
 ---
 
