@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Backend-Python_Flask-green)
 ![Platform](https://img.shields.io/badge/Platform-Chrome_Extension_V3-yellow)
 
-**PhishTrace AI** is a specialized security framework designed to address the "Human Layer" vulnerability in cybersecurity[cite: 64]. [cite_start]Unlike traditional server-side filters, this project utilizes a hybrid, client-side approach to detect phishing attacks in real-time directly within the browser.
+**PhishTrace AI** is a specialized security framework designed to address the "Human Layer" vulnerability in cybersecurity. Unlike traditional server-side filters, this project utilizes a hybrid, client-side approach to detect phishing attacks in real-time directly within the browser.
 
 The system combines **Machine Learning (Behavioral Analysis)** and **Digital Forensics (OSINT)** to bridge the "latency gap" inherent in reputation-based blacklists.
 
