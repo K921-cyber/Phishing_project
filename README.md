@@ -105,11 +105,13 @@ PhishTrace-AI/
 │   ├── popup.js            # Dynamic Logic & Animation
 │   └── content.js          # DOM Telemetry Extraction
 └── README.md
+```
 
 
 
+<img width="890" height="266" alt="image" src="https://github.com/user-attachments/assets/2fd0a2f8-7e31-49cf-ae8d-07369def348e" />
 
-
+<img width="1917" height="751" alt="image" src="https://github.com/user-attachments/assets/fb434824-a56c-4687-b91a-c60f1b180f96" />
 
 
 
