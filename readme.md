@@ -324,7 +324,7 @@ pydantic>=2.7.0
 | Dataset | Type | Source |
 |---|---|---|
 | Enron Email Corpus | Legitimate | [cs.cmu.edu/~enron](https://www.cs.cmu.edu/~enron/) |
-| Nazario Phishing Corpus | Phishing | [github.com/oshapira/phishing](https://github.com/oshapira/phishing) |
+| Nazario Phishing Corpus | Phishing | (yet to decide) |
 
 Extract email files (one email per `.txt` file) into:
 ```
