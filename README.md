@@ -260,12 +260,6 @@ PhishTrace-AI/
 
 ---
 
-## 📄 License
-
-This project was developed as an academic capstone. See [`LICENSE`](LICENSE) for details.
-
----
-
 <div align="center">
 
 **Built with 🛡️ to keep humans one step ahead of attackers.**
